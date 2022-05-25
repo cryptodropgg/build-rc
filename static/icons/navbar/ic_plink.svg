@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160" height="160" viewBox="0 0 160 160">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.552" y2="0.952" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="0.744" stop-opacity="0.122"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip-ic_plink">
+      <rect width="160" height="160"/>
+    </clipPath>
+  </defs>
+  <g id="ic_plink" clip-path="url(#clip-ic_plink)">
+    <g id="Group_1222" data-name="Group 1222" transform="translate(0 0.061)" opacity="0.422">
+      <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="9.016" cy="9.016" rx="9.016" ry="9.016" transform="translate(37.624 28.547)"/>
+      <ellipse id="Ellipse_11" data-name="Ellipse 11" cx="9.016" cy="9.016" rx="9.016" ry="9.016" transform="translate(37.624 113.299)"/>
+      <ellipse id="Ellipse_6" data-name="Ellipse 6" cx="9.016" cy="9.016" rx="9.016" ry="9.016" transform="translate(8.772 71.825)"/>
+      <ellipse id="Ellipse_9" data-name="Ellipse 9" cx="9.016" cy="9.016" rx="9.016" ry="9.016" transform="translate(133.195 71.825)"/>
+      <ellipse id="Ellipse_4" data-name="Ellipse 4" cx="9.016" cy="9.016" rx="9.016" ry="9.016" transform="translate(102.54 28.547)"/>
+      <ellipse id="Ellipse_12" data-name="Ellipse 12" cx="9.016" cy="9.016" rx="9.016" ry="9.016" transform="translate(102.54 113.299)"/>
+      <ellipse id="Ellipse_5" data-name="Ellipse 5" cx="9.016" cy="9.016" rx="9.016" ry="9.016" transform="translate(70.984 70.984)"/>
+    </g>
+    <g id="Group_1223" data-name="Group 1223">
+      <ellipse id="Ellipse_23" data-name="Ellipse 23" cx="18.934" cy="18.934" rx="18.934" ry="18.934" transform="translate(28.608 71.825)"/>
+      <path id="Rectangle_1" data-name="Rectangle 1" d="M19,0h.868a19,19,0,0,1,19,19v96.406a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V19A19,19,0,0,1,19,0Z" transform="matrix(-0.829, -0.559, 0.559, -0.829, 53.392, 117.047)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

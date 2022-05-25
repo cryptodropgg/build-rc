@@ -1,3 +1,8 @@
+
+body > iframe:nth-child(11){
+  display: none;
+}
+
 button {
   background: transparent;
   box-shadow: 0px 0px 0px transparent;
@@ -243,7 +248,7 @@ button:focus {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 500px) {
   html{
-    font-size: 16px !important;
+    font-size: 14px !important;
   }
 
   .column-jackpot{
@@ -334,7 +339,7 @@ button:focus {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 900px) {
   html{
-    font-size: 16px !important;
+    font-size: 14px !important;
   }
 
   .slotBadge{
@@ -346,14 +351,14 @@ button:focus {
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   html{
-    font-size: 16px !important;
+    font-size: 14px !important;
   }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1536px) { 
   html{
-    font-size: 16px !important;
+    font-size: 14px !important;
   }
 }
 
@@ -1111,6 +1116,9 @@ button:focus {
   animation: 3s ease-in-out running infinite floating;
 }
 
+.floating{
+  animation: 3s ease-in-out running infinite floating;
+}
 
 
 @keyframes floating-jackpot {
@@ -1419,4 +1427,31 @@ circle#circle-blur-yellow{
 .linking:hover{
   text-decoration: inherit;
   color: inherit;
+}
+
+/* PLINKO START */
+.plinko-container > div > div > div{
+  margin-inline: auto;
+  overflow: visible !important;
+}
+
+@keyframes plinko-blink {
+  0% { box-shadow: rgb(0 0 0) 0px 0px 10px 0px inset, 0px -2px 50px 0px rgba(255, 188, 53, 0.92) }
+  50% { box-shadow: rgb(0 0 0) 0px 0px 10px 0px inset, 0px -2px 31px 0px rgba(255, 188, 53, 0.92) }
+  100% { box-shadow: rgb(0 0 0) 0px 0px 10px 0px inset, 0px -2px 50px 0px rgba(255, 188, 53, 0.92) }
+}
+
+/* @-webkit-keyframes plinko-blink {
+  0% { box-shadow: rgb(0 0 0) 0px 0px 10px 0px inset, 0px -2px 50px 0px rgba(255, 188, 53, 0.92) }
+  50% { box-shadow: rgb(0 0 0) 0px 0px 10px 0px inset, 0px -2px 31px 0px rgba(159, 33, 255, 0.827) }
+  100% { box-shadow: rgb(0 0 0) 0px 0px 10px 0px inset, 0px -2px 50px 0px rgba(255, 188, 53, 0.92) }
+} */
+
+.plinko-blink {
+  box-shadow: rgb(0 0 0) 0px 0px 10px 0px inset, 0px -2px 50px 0px rgba(255, 188, 53, 0.92) !important;
+}
+
+.purple-gradient-bg{
+  background: rgb(255,166,90);
+  background: linear-gradient(56deg, rgba(255,166,90,1) 0%, rgba(218,143,79,1) 100%);
 }
