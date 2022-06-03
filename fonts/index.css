@@ -1283,6 +1283,11 @@ button:focus {
   color: #ffc900;
 }
 
+.bold-purple-shazu{
+  font-weight: 700;
+  color: #854BFF;
+}
+
 .text-yellow{
   color: #ffc900;
 }
