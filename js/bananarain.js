@@ -27,7 +27,7 @@ function init() {
 // Tick Code
 var clicked = false;
 function tick(event) {
-  addBanana();
+  addBanana?.();
   
   var factor = 1,
       DIST = canvas.width/10,
